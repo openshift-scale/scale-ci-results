@@ -1,0 +1,1061 @@
+{
+  "Hosts": [
+    {
+      "Kind": "svt_infra_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1.3,
+          "Max": 4.7,
+          "Avg": 2.8880434782608693,
+          "Pct95": 4.5
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0038043478260869562,
+          "Pct95": 0
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.22771739130434784,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.5,
+          "Avg": 0.22880434782608708,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.3,
+          "Max": 0.7,
+          "Avg": 0.5336956521739126,
+          "Pct95": 0.6
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 27,
+          "Avg": 6.973315217391302,
+          "Pct95": 20.079999999999995
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 231444,
+          "Max": 234004,
+          "Avg": 233549.52173913043,
+          "Pct95": 234004
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 7368,
+          "Max": 7368,
+          "Avg": 7368,
+          "Pct95": 7368
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59080,
+          "Max": 59080,
+          "Avg": 59080,
+          "Pct95": 59080
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 37064,
+          "Max": 38336,
+          "Avg": 37880.45652173913,
+          "Pct95": 38336
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 62492,
+          "Max": 63028,
+          "Avg": 62953.95652173913,
+          "Pct95": 63028
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.03489792,
+          "Max": 2.11623936,
+          "Avg": 0.1624825321739131,
+          "Pct95": 0.45585203199999996
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.04702208,
+          "Max": 0.17047552,
+          "Avg": 0.09057725217391303,
+          "Pct95": 0.12501401599999998
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 15.5,
+          "Max": 108.1,
+          "Avg": 25.35760869565218,
+          "Pct95": 41.995
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 15.9,
+          "Max": 109.5,
+          "Avg": 24.453804347826093,
+          "Pct95": 37.925
+        }
+      ]
+    },
+    {
+      "Kind": "svt_infra_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1.7,
+          "Max": 8.2,
+          "Avg": 3.6494021739130473,
+          "Pct95": 7.2
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 6.5,
+          "Max": 90.2,
+          "Avg": 22.077228260869568,
+          "Pct95": 39.739999999999995
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0038043478260869562,
+          "Pct95": 0
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.2,
+          "Max": 0.5,
+          "Avg": 0.3342391304347818,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 40.4,
+          "Avg": 8.846630434782606,
+          "Pct95": 23.654999999999998
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 208372,
+          "Max": 209724,
+          "Avg": 209113.91304347827,
+          "Pct95": 209724
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1177340,
+          "Max": 1528676,
+          "Avg": 1282524.6739130435,
+          "Pct95": 1528569.7999999998
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 7764,
+          "Max": 7764,
+          "Avg": 7764,
+          "Pct95": 7764
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59636,
+          "Max": 59636,
+          "Avg": 59636,
+          "Pct95": 59636
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 996,
+          "Max": 996,
+          "Avg": 996,
+          "Pct95": 996
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.59899904,
+          "Max": 6.67648,
+          "Avg": 1.6925820660869575,
+          "Pct95": 4.433657855999999
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.0606208,
+          "Max": 6.62511616,
+          "Avg": 0.5018236660869567,
+          "Pct95": 4.2894868479999975
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 41.4,
+          "Max": 345.7,
+          "Avg": 79.37445652173913,
+          "Pct95": 147.01499999999993
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 36.7,
+          "Max": 310,
+          "Avg": 66.25402173913042,
+          "Pct95": 138.95
+        }
+      ]
+    },
+    {
+      "Kind": "svt_infra_3",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1.7,
+          "Max": 6.3,
+          "Avg": 3.5630434782608704,
+          "Pct95": 5.9
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 7.2,
+          "Max": 39.8,
+          "Avg": 19.827880434782617,
+          "Pct95": 37.855
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0038043478260869562,
+          "Pct95": 0
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.2,
+          "Max": 0.5,
+          "Avg": 0.34728260869565125,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.227717391304348,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 37.8,
+          "Avg": 8.918206521739126,
+          "Pct95": 24.57
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 242516,
+          "Max": 247784,
+          "Avg": 245690.10869565216,
+          "Pct95": 247784
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1041568,
+          "Max": 1483668,
+          "Avg": 1210720.3260869565,
+          "Pct95": 1483668
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 7752,
+          "Max": 7752,
+          "Avg": 7752,
+          "Pct95": 7752
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59636,
+          "Max": 59636,
+          "Avg": 59636,
+          "Pct95": 59636
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 34464,
+          "Max": 36328,
+          "Avg": 35606.36956521739,
+          "Pct95": 36328
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 992,
+          "Max": 992,
+          "Avg": 992,
+          "Pct95": 992
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 15.75411712,
+          "Max": 26.88704512,
+          "Avg": 17.822313961739127,
+          "Pct95": 22.415757311999993
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.186368,
+          "Max": 0.55246848,
+          "Avg": 0.2700011965217391,
+          "Pct95": 0.47008972799999993
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 369.5,
+          "Max": 580.9,
+          "Avg": 424.32983695652183,
+          "Pct95": 509.03499999999997
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 183.5,
+          "Max": 384.1,
+          "Avg": 216.03847826086957,
+          "Pct95": 267.865
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_1_etcd_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.9,
+          "Max": 10.8,
+          "Avg": 5.824945652173915,
+          "Pct95": 9.885
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 3,
+          "Max": 22.5,
+          "Avg": 4.921684782608695,
+          "Pct95": 8.084999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0048913043478260865,
+          "Pct95": 0
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.2777173913043476,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.2,
+          "Avg": 0.04239130434782603,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 53.2,
+          "Max": 646.7,
+          "Avg": 103.7391304347826,
+          "Pct95": 168.255
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 511316,
+          "Max": 538776,
+          "Avg": 520603.45652173914,
+          "Pct95": 538776
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 299480,
+          "Max": 454480,
+          "Avg": 405927.2173913043,
+          "Pct95": 453688
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 8264,
+          "Max": 8264,
+          "Avg": 8264,
+          "Pct95": 8264
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59588,
+          "Max": 59588,
+          "Avg": 59588,
+          "Pct95": 59588
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1040,
+          "Max": 1040,
+          "Avg": 1040,
+          "Pct95": 1040
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 1.5179776,
+          "Max": 10.67491328,
+          "Avg": 2.3054318191304355,
+          "Pct95": 4.017438719999997
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0.79773696,
+          "Max": 11.34338048,
+          "Avg": 3.195582998260869,
+          "Pct95": 8.034279424
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 531.1,
+          "Max": 2999.4,
+          "Avg": 760.9241847826081,
+          "Pct95": 1081.445
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 555.4,
+          "Max": 3065.6,
+          "Avg": 801.0616304347824,
+          "Pct95": 1163.835
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_2_etcd_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.3,
+          "Max": 12.2,
+          "Avg": 5.007989130434784,
+          "Pct95": 10.885
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 8.5,
+          "Max": 87.3,
+          "Avg": 12.18440217391304,
+          "Pct95": 18.634999999999994
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.004347826086956522,
+          "Pct95": 0
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.24293478260869558,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 49.5,
+          "Max": 647.4,
+          "Avg": 101.97836956521739,
+          "Pct95": 165.555
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 529860,
+          "Max": 535660,
+          "Avg": 533552.5434782609,
+          "Pct95": 535660
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 270408,
+          "Max": 447416,
+          "Avg": 424437.9347826087,
+          "Pct95": 447416
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 8028,
+          "Max": 8028,
+          "Avg": 8028,
+          "Pct95": 8028
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59440,
+          "Max": 59440,
+          "Avg": 59440,
+          "Pct95": 59440
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 992,
+          "Max": 992,
+          "Avg": 992,
+          "Pct95": 992
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 1.8915328,
+          "Max": 18.39480832,
+          "Avg": 4.650301885217392,
+          "Pct95": 10.484826111999999
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 8.51861504,
+          "Max": 36.96009216,
+          "Avg": 11.922986295652175,
+          "Pct95": 21.657964543999995
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 1214.2,
+          "Max": 9161.5,
+          "Avg": 1763.7607065217387,
+          "Pct95": 2688.0099999999998
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 1314.3,
+          "Max": 10159.8,
+          "Avg": 1875.8614130434776,
+          "Pct95": 2834.14
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_3_etcd_3",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.7,
+          "Max": 9.4,
+          "Avg": 5.514510869565213,
+          "Pct95": 8.6
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 7.7,
+          "Max": 56.3,
+          "Avg": 10.921956521739132,
+          "Pct95": 17.42999999999998
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.008695652173913045,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.2510869565217392,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 54.9,
+          "Max": 625,
+          "Avg": 102.63119565217394,
+          "Pct95": 170.54999999999998
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 537640,
+          "Max": 547124,
+          "Avg": 545846.5869565217,
+          "Pct95": 547124
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 295320,
+          "Max": 448396,
+          "Avg": 424030.32608695654,
+          "Pct95": 448396
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 8376,
+          "Max": 8376,
+          "Avg": 8376,
+          "Pct95": 8376
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59792,
+          "Max": 59792,
+          "Avg": 59792,
+          "Pct95": 59792
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 996,
+          "Max": 996,
+          "Avg": 996,
+          "Pct95": 996
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 7.28465408,
+          "Max": 19.16280832,
+          "Avg": 8.557371659130437,
+          "Pct95": 10.859040767999998
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 17.90083072,
+          "Max": 52.09407488,
+          "Avg": 20.48111838608695,
+          "Pct95": 23.856095231999998
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 1215.3,
+          "Max": 7930.4,
+          "Avg": 1631.1409782608705,
+          "Pct95": 2316.0449999999996
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 1353.4,
+          "Max": 7122.9,
+          "Avg": 1762.3867934782609,
+          "Pct95": 2412.6899999999996
+        }
+      ]
+    },
+    {
+      "Kind": "svt_node_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1.3,
+          "Max": 63,
+          "Avg": 16.04375,
+          "Pct95": 44.25999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 27.5,
+          "Avg": 1.597771739130435,
+          "Pct95": 9.049999999999994
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 27.1,
+          "Avg": 1.4157065217391305,
+          "Pct95": 5.9
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 395.7,
+          "Avg": 47.299619565217384,
+          "Pct95": 131.46499999999997
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0005434782608695652,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 156244,
+          "Max": 388608,
+          "Avg": 267195.1956521739,
+          "Pct95": 388608
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 7648,
+          "Max": 16048,
+          "Avg": 11807.065217391304,
+          "Pct95": 16048
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 59076,
+          "Max": 62256,
+          "Avg": 60679.69565217391,
+          "Pct95": 62236
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 0,
+          "Max": 996,
+          "Avg": 465.5217391304348,
+          "Pct95": 996
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0,
+          "Max": 2812.07496704,
+          "Avg": 15.337492925217393,
+          "Pct95": 0.7261593599999993
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0,
+          "Max": 997.14080768,
+          "Avg": 5.435725467826086,
+          "Pct95": 0.10465279999999999
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 0,
+          "Max": 309111.9,
+          "Avg": 1685.673913043478,
+          "Pct95": 77.37999999999997
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 0,
+          "Max": 168536.2,
+          "Avg": 921.5913043478264,
+          "Pct95": 76.65499999999999
+        }
+      ]
+    },
+    {
+      "Kind": "svt_node_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 62.6,
+          "Avg": 12.5578448275862,
+          "Pct95": 43.345
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 31.5,
+          "Avg": 1.20426724137931,
+          "Pct95": 7.089999999999998
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 34.4,
+          "Avg": 1.1659051724137934,
+          "Pct95": 5.534999999999997
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 0.1,
+          "Max": 459.6,
+          "Avg": 45.926847826086984,
+          "Pct95": 136.91499999999996
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.0005434782608695652,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 0,
+          "Max": 412960,
+          "Avg": 209368.2931034483,
+          "Pct95": 412960
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 0,
+          "Max": 16516,
+          "Avg": 9297.344827586207,
+          "Pct95": 16516
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 0,
+          "Max": 62180,
+          "Avg": 48034.362068965514,
+          "Pct95": 61980
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 0,
+          "Max": 996,
+          "Avg": 403.55172413793105,
+          "Pct95": 996
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0,
+          "Max": 3684.69737472,
+          "Avg": 20.082920848695654,
+          "Pct95": 0.7329259519999991
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_Mbits_sec",
+          "Min": 0,
+          "Max": 884.92883968,
+          "Avg": 4.82403684173913,
+          "Pct95": 0.11111219199999996
+        },
+        {
+          "Kind": "eth0-rx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 0,
+          "Max": 325649.4,
+          "Avg": 1775.8875000000003,
+          "Pct95": 76.19499999999998
+        },
+        {
+          "Kind": "eth0-tx",
+          "Resource": "network_l2_network_packets_sec",
+          "Min": 0,
+          "Max": 170895.6,
+          "Avg": 934.683152173913,
+          "Pct95": 74.26499999999999
+        }
+      ]
+    }
+  ],
+  "Metrics": [
+    {
+      "marker": "cluster_loader_marker",
+      "name": "cluster-loader-test",
+      "type": "metrics.TestDuration",
+      "startTime": "2019-03-15T13:29:47.051811904Z",
+      "testDuration": "24m31.064825659s"
+    }
+  ]
+}
