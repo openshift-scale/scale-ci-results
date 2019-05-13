@@ -1,0 +1,1597 @@
+{
+  "Hosts": [
+    {
+      "Kind": "svt_infra_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.1,
+          "Max": 4.3,
+          "Avg": 3.0275,
+          "Pct95": 4.2
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.008333333333333335,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.25833333333333336,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.21944444444444441,
+          "Pct95": 0.32499999999999996
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.20277777777777783,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.18888888888888894,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 2.9,
+          "Max": 48.8,
+          "Avg": 16.305555555555557,
+          "Pct95": 41.875
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 152804,
+          "Max": 154632,
+          "Avg": 154188.11111111112,
+          "Pct95": 154604
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 14380,
+          "Max": 14380,
+          "Avg": 14380,
+          "Pct95": 14380
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 64440,
+          "Max": 64440,
+          "Avg": 64440,
+          "Pct95": 64440
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 44876,
+          "Max": 46100,
+          "Avg": 45877.333333333336,
+          "Pct95": 46100
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1928,
+          "Max": 1928,
+          "Avg": 1928,
+          "Pct95": 1928
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 31116,
+          "Max": 31116,
+          "Avg": 31116,
+          "Pct95": 31116
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 41056,
+          "Max": 41080,
+          "Avg": 41068,
+          "Pct95": 41080
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2500,
+          "Max": 2500,
+          "Avg": 2500,
+          "Pct95": 2500
+        }
+      ]
+    },
+    {
+      "Kind": "svt_infra_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.3,
+          "Max": 5.38,
+          "Avg": 3.8827777777777777,
+          "Pct95": 5.2250000000000005
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 6.8,
+          "Max": 21.6,
+          "Avg": 12.732500000000002,
+          "Pct95": 20.8
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.005555555555555556,
+          "Pct95": 0.025
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.3,
+          "Max": 0.5,
+          "Avg": 0.3666666666666669,
+          "Pct95": 0.5
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.4,
+          "Avg": 0.20277777777777783,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.19166666666666665,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.17499999999999996,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 2.3,
+          "Max": 51.3,
+          "Avg": 17.488888888888894,
+          "Pct95": 38.550000000000004
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 188464,
+          "Max": 188464,
+          "Avg": 188464,
+          "Pct95": 188464
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 897892,
+          "Max": 897892,
+          "Avg": 897892,
+          "Pct95": 897892
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 14408,
+          "Max": 14408,
+          "Avg": 14408,
+          "Pct95": 14408
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 65008,
+          "Max": 65008,
+          "Avg": 65008,
+          "Pct95": 65008
+        },
+        {
+          "Kind": "openshift-router",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 45544,
+          "Max": 47192,
+          "Avg": 46631.333333333336,
+          "Pct95": 47192
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1888,
+          "Max": 1888,
+          "Avg": 1888,
+          "Pct95": 1888
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 29908,
+          "Max": 29908,
+          "Avg": 29908,
+          "Pct95": 29908
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 44824,
+          "Max": 44824,
+          "Avg": 44824,
+          "Pct95": 44824
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2656,
+          "Max": 2656,
+          "Avg": 2656,
+          "Pct95": 2656
+        }
+      ]
+    },
+    {
+      "Kind": "svt_infra_3",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2,
+          "Max": 7.3,
+          "Avg": 4.066666666666666,
+          "Pct95": 6.8
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 7.7,
+          "Max": 23.4,
+          "Avg": 13.66638888888889,
+          "Pct95": 21.85
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.005555555555555556,
+          "Pct95": 0.025
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.3,
+          "Max": 0.5,
+          "Avg": 0.38888888888888906,
+          "Pct95": 0.5
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.2222222222222222,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.19444444444444445,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 2.8,
+          "Max": 42.8,
+          "Avg": 15.40277777777778,
+          "Pct95": 40.825
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 186944,
+          "Max": 186944,
+          "Avg": 186944,
+          "Pct95": 186944
+        },
+        {
+          "Kind": "prometheus_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 905576,
+          "Max": 935244,
+          "Avg": 913057.1111111111,
+          "Pct95": 935244
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 14452,
+          "Max": 14452,
+          "Avg": 14452,
+          "Pct95": 14452
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 64652,
+          "Max": 64652,
+          "Avg": 64652,
+          "Pct95": 64652
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1992,
+          "Max": 1992,
+          "Avg": 1992,
+          "Pct95": 1992
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 29648,
+          "Max": 29768,
+          "Avg": 29694.666666666668,
+          "Pct95": 29768
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 41336,
+          "Max": 43712,
+          "Avg": 43514,
+          "Pct95": 43712
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2660,
+          "Max": 2660,
+          "Avg": 2660,
+          "Pct95": 2660
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_1_etcd_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 4.5,
+          "Max": 10.4,
+          "Avg": 6.7077777777777765,
+          "Pct95": 9.925
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 3.8,
+          "Max": 8.1,
+          "Avg": 4.813333333333335,
+          "Pct95": 7.074999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.011111111111111112,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.5,
+          "Avg": 0.2861111111111112,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 8.1,
+          "Max": 18.1,
+          "Avg": 10.154444444444444,
+          "Pct95": 14.675
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.6,
+          "Max": 3,
+          "Avg": 1.0969444444444445,
+          "Pct95": 1.7249999999999999
+        },
+        {
+          "Kind": "machine-config-controller",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.3,
+          "Max": 0.6,
+          "Avg": 0.35833333333333356,
+          "Pct95": 0.42500000000000004
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.22500000000000003,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "machine-controller-manager",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.2,
+          "Max": 0.4,
+          "Avg": 0.25833333333333336,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1,
+          "Max": 1.7,
+          "Avg": 1.2666666666666666,
+          "Pct95": 1.5
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.4,
+          "Avg": 0.11111111111111116,
+          "Pct95": 0.22500000000000003
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.6,
+          "Max": 1,
+          "Avg": 0.7194444444444444,
+          "Pct95": 0.9
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.2,
+          "Avg": 0.025,
+          "Pct95": 0.2
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.19166666666666665,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "package-server",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.1916666666666667,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 40.5,
+          "Max": 157.1,
+          "Avg": 66.31944444444444,
+          "Pct95": 92.67500000000001
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 295.3,
+          "Avg": 16.53055555555556,
+          "Pct95": 101.775
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 148012,
+          "Max": 149040,
+          "Avg": 148198.77777777778,
+          "Pct95": 148458
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 452092,
+          "Max": 458736,
+          "Avg": 454335.8888888889,
+          "Pct95": 458736
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 15408,
+          "Max": 15408,
+          "Avg": 15408,
+          "Pct95": 15408
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 64788,
+          "Max": 64788,
+          "Avg": 64788,
+          "Pct95": 64788
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1940,
+          "Max": 1940,
+          "Avg": 1940,
+          "Pct95": 1940
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1012732,
+          "Max": 1024364,
+          "Avg": 1022822.2222222222,
+          "Pct95": 1024364
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 179604,
+          "Max": 182768,
+          "Avg": 180775.66666666666,
+          "Pct95": 182768
+        },
+        {
+          "Kind": "machine-config-controller",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 25428,
+          "Max": 26236,
+          "Avg": 25711.777777777777,
+          "Pct95": 26236
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 16320,
+          "Max": 16584,
+          "Avg": 16532.666666666668,
+          "Pct95": 16584
+        },
+        {
+          "Kind": "machine-controller-manager",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 75960,
+          "Max": 75964,
+          "Avg": 75960.22222222222,
+          "Pct95": 75961
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 9220,
+          "Max": 9220,
+          "Avg": 9220,
+          "Pct95": 9220
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 40324,
+          "Max": 40880,
+          "Avg": 40524.77777777778,
+          "Pct95": 40880
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 50520,
+          "Max": 51144,
+          "Avg": 51052,
+          "Pct95": 51144
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 47104,
+          "Max": 47108,
+          "Avg": 47104.22222222222,
+          "Pct95": 47105
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 29324,
+          "Max": 29324,
+          "Avg": 29324,
+          "Pct95": 29324
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2652,
+          "Max": 2652,
+          "Avg": 2652,
+          "Pct95": 2652
+        },
+        {
+          "Kind": "package-server",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 41080,
+          "Max": 41080,
+          "Avg": 41080,
+          "Pct95": 41080
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_2_etcd_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 4.4,
+          "Max": 11.1,
+          "Avg": 6.835277777777779,
+          "Pct95": 10.850000000000001
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 3.5,
+          "Max": 5.6,
+          "Avg": 4.0275,
+          "Pct95": 5.199999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.008333333333333335,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.2,
+          "Max": 0.5,
+          "Avg": 0.35277777777777797,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 6.99,
+          "Max": 16.3,
+          "Avg": 9.501944444444444,
+          "Pct95": 15.525
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.4,
+          "Max": 0.7,
+          "Avg": 0.47777777777777786,
+          "Pct95": 0.625
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.21111111111111114,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.9,
+          "Max": 1.5,
+          "Avg": 1.2277777777777779,
+          "Pct95": 1.4249999999999998
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.6,
+          "Max": 1.1,
+          "Avg": 0.7777777777777779,
+          "Pct95": 0.925
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.6,
+          "Max": 1,
+          "Avg": 0.7138888888888886,
+          "Pct95": 0.9
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.2,
+          "Avg": 0.019444444444444445,
+          "Pct95": 0.125
+        },
+        {
+          "Kind": "autoscaler-operator",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.23333333333333334,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.2,
+          "Avg": 0.1666666666666667,
+          "Pct95": 0.2
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 42.5,
+          "Max": 116,
+          "Avg": 67.11666666666666,
+          "Pct95": 106.65
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 271.9,
+          "Avg": 16.674999999999997,
+          "Pct95": 109.17500000000001
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 168164,
+          "Max": 168544,
+          "Avg": 168281.22222222222,
+          "Pct95": 168375
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 432104,
+          "Max": 448060,
+          "Avg": 440014.3333333333,
+          "Pct95": 446872
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 16224,
+          "Max": 16224,
+          "Avg": 16224,
+          "Pct95": 16224
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 65056,
+          "Max": 65056,
+          "Avg": 65056,
+          "Pct95": 65056
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1964,
+          "Max": 1964,
+          "Avg": 1964,
+          "Pct95": 1964
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1083316,
+          "Max": 1087380,
+          "Avg": 1084994.3333333333,
+          "Pct95": 1087380
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 52776,
+          "Max": 52776,
+          "Avg": 52776,
+          "Pct95": 52776
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 15796,
+          "Max": 15796,
+          "Avg": 15796,
+          "Pct95": 15796
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 8680,
+          "Max": 8680,
+          "Avg": 8680,
+          "Pct95": 8680
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 63128,
+          "Max": 64056,
+          "Avg": 63622.22222222222,
+          "Pct95": 64056
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 69036,
+          "Max": 69332,
+          "Avg": 69254.44444444444,
+          "Pct95": 69332
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 43012,
+          "Max": 43020,
+          "Avg": 43014.88888888889,
+          "Pct95": 43020
+        },
+        {
+          "Kind": "autoscaler-operator",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 24232,
+          "Max": 24232,
+          "Avg": 24232,
+          "Pct95": 24232
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 26856,
+          "Max": 28968,
+          "Avg": 28504.444444444445,
+          "Pct95": 28968
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2592,
+          "Max": 2592,
+          "Avg": 2592,
+          "Pct95": 2592
+        }
+      ]
+    },
+    {
+      "Kind": "svt_master_3_etcd_3",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 4.4,
+          "Max": 9.3,
+          "Avg": 6.460555555555554,
+          "Pct95": 9.2
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 3,
+          "Max": 7.9,
+          "Avg": 3.938611111111111,
+          "Pct95": 7.174999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.013888888888888888,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.2,
+          "Max": 0.4,
+          "Avg": 0.32777777777777795,
+          "Pct95": 0.4
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 3.5,
+          "Max": 8.5,
+          "Avg": 4.785833333333333,
+          "Pct95": 8.149999999999999
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.8,
+          "Max": 1.9,
+          "Avg": 1.0694444444444444,
+          "Pct95": 1.55
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.21666666666666667,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 1,
+          "Max": 1.6,
+          "Avg": 1.2583333333333333,
+          "Pct95": 1.5
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.3,
+          "Avg": 0.11111111111111116,
+          "Pct95": 0.2
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.6,
+          "Max": 0.9,
+          "Avg": 0.6861111111111111,
+          "Pct95": 0.8
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.4,
+          "Avg": 0.17777777777777778,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.17777777777777776,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "olm-operators",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.2,
+          "Avg": 0.019444444444444445,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "package-server",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.18333333333333332,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "nvme0n1-write",
+          "Resource": "disk_IOPS",
+          "Min": 37.2,
+          "Max": 137.8,
+          "Avg": 64.83611111111112,
+          "Pct95": 99.525
+        },
+        {
+          "Kind": "nvme0n1-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 445.8,
+          "Avg": 18.119444444444454,
+          "Pct95": 78.8
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 170440,
+          "Max": 170624,
+          "Avg": 170449.11111111112,
+          "Pct95": 170476
+        },
+        {
+          "Kind": "etcd",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 425040,
+          "Max": 430156,
+          "Avg": 428229.6666666667,
+          "Pct95": 430156
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 15124,
+          "Max": 15124,
+          "Avg": 15124,
+          "Pct95": 15124
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 64876,
+          "Max": 64876,
+          "Avg": 64876,
+          "Pct95": 64876
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1940,
+          "Max": 1940,
+          "Avg": 1940,
+          "Pct95": 1940
+        },
+        {
+          "Kind": "openshift-kube-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 771320,
+          "Max": 785104,
+          "Avg": 775221.1111111111,
+          "Pct95": 785104
+        },
+        {
+          "Kind": "openshift-apiserver",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 184008,
+          "Max": 185096,
+          "Avg": 184931.55555555556,
+          "Pct95": 185096
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 16224,
+          "Max": 16400,
+          "Avg": 16395.11111111111,
+          "Pct95": 16400
+        },
+        {
+          "Kind": "machine-config-server",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 12016,
+          "Max": 12016,
+          "Avg": 12016,
+          "Pct95": 12016
+        },
+        {
+          "Kind": "kube-controller-manager",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 41356,
+          "Max": 41356,
+          "Avg": 41356,
+          "Pct95": 41356
+        },
+        {
+          "Kind": "kube-scheduler",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 60476,
+          "Max": 60540,
+          "Avg": 60524,
+          "Pct95": 60540
+        },
+        {
+          "Kind": "openshift-network-controller",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 58980,
+          "Max": 58980,
+          "Avg": 58980,
+          "Pct95": 58980
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 25028,
+          "Max": 26348,
+          "Avg": 26230.666666666668,
+          "Pct95": 26348
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2556,
+          "Max": 2556,
+          "Avg": 2556,
+          "Pct95": 2556
+        },
+        {
+          "Kind": "olm-operators",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 17924,
+          "Max": 18156,
+          "Avg": 18072.222222222223,
+          "Pct95": 18156
+        },
+        {
+          "Kind": "package-server",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 24000,
+          "Max": 24384,
+          "Avg": 24170.666666666668,
+          "Pct95": 24384
+        }
+      ]
+    },
+    {
+      "Kind": "svt_node_1",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2.2,
+          "Max": 6.1,
+          "Avg": 3.685555555555555,
+          "Pct95": 5.7
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.011111111111111112,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.16944444444444445,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.3,
+          "Avg": 0.23888888888888887,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.21944444444444444,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "vda-write",
+          "Resource": "disk_IOPS",
+          "Min": 4,
+          "Max": 42.5,
+          "Avg": 16.082499999999996,
+          "Pct95": 36.2
+        },
+        {
+          "Kind": "vda-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "xvda-write",
+          "Resource": "disk_IOPS",
+          "Min": 4,
+          "Max": 42.5,
+          "Avg": 16.082499999999996,
+          "Pct95": 36.2
+        },
+        {
+          "Kind": "xvda-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 155520,
+          "Max": 155520,
+          "Avg": 155520,
+          "Pct95": 155520
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 14680,
+          "Max": 14680,
+          "Avg": 14680,
+          "Pct95": 14680
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 48380,
+          "Max": 48380,
+          "Avg": 48380,
+          "Pct95": 48380
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 1976,
+          "Max": 1976,
+          "Avg": 1976,
+          "Pct95": 1976
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 30872,
+          "Max": 31136,
+          "Avg": 30996.666666666668,
+          "Pct95": 31136
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 37628,
+          "Max": 39524,
+          "Avg": 39364,
+          "Pct95": 39524
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2640,
+          "Max": 2640,
+          "Avg": 2640,
+          "Pct95": 2640
+        }
+      ]
+    },
+    {
+      "Kind": "svt_node_2",
+      "Results": [
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 2,
+          "Max": 6,
+          "Avg": 3.613611111111112,
+          "Pct95": 5.824999999999999
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.1,
+          "Avg": 0.008333333333333335,
+          "Pct95": 0.1
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0.3,
+          "Avg": 0.15000000000000002,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "crio",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.25277777777777777,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0.1,
+          "Max": 0.4,
+          "Avg": 0.21944444444444444,
+          "Pct95": 0.3
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "cpu_usage_percent_cpu",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "vda-write",
+          "Resource": "disk_IOPS",
+          "Min": 2.1,
+          "Max": 39.5,
+          "Avg": 13.885833333333332,
+          "Pct95": 33.825
+        },
+        {
+          "Kind": "vda-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "xvda-write",
+          "Resource": "disk_IOPS",
+          "Min": 2.1,
+          "Max": 39.5,
+          "Avg": 13.885833333333332,
+          "Pct95": 33.825
+        },
+        {
+          "Kind": "xvda-read",
+          "Resource": "disk_IOPS",
+          "Min": 0,
+          "Max": 0,
+          "Avg": 0,
+          "Pct95": 0
+        },
+        {
+          "Kind": "hyperkube_kubelet_",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 169112,
+          "Max": 169112,
+          "Avg": 169112,
+          "Pct95": 169112
+        },
+        {
+          "Kind": "systemd_--switched-root",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 14688,
+          "Max": 14688,
+          "Avg": 14688,
+          "Pct95": 14688
+        },
+        {
+          "Kind": "ovs-vswitchd_unix",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 48440,
+          "Max": 48440,
+          "Avg": 48440,
+          "Pct95": 48440
+        },
+        {
+          "Kind": "crio",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2068,
+          "Max": 2068,
+          "Avg": 2068,
+          "Pct95": 2068
+        },
+        {
+          "Kind": "machine-config-daemon",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 30728,
+          "Max": 30728,
+          "Avg": 30728,
+          "Pct95": 30728
+        },
+        {
+          "Kind": "coredns",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 37228,
+          "Max": 37244,
+          "Avg": 37243.11111111111,
+          "Pct95": 37244
+        },
+        {
+          "Kind": "tuned",
+          "Resource": "memory_usage_resident_set_size",
+          "Min": 2636,
+          "Max": 2636,
+          "Avg": 2636,
+          "Pct95": 2636
+        }
+      ]
+    }
+  ],
+  "Metrics": null
+}
